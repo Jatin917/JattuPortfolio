@@ -1,0 +1,31 @@
+.Navbar{
+    height: 100px;
+    .wrapper{
+        // background-color: blue;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1266px;
+        height: 100%;
+        .nameDetails{
+            // background-color: black;
+            display: flex;
+            gap: 20px;
+            font-weight: 700;
+        }
+        .line{
+            height: 20px;
+            background-color: lightgray;
+            width: 2px;
+        }
+        img{
+            width: 25px;
+            height: 25px;
+        }
+        .social{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
