@@ -44,9 +44,9 @@ const App = () => {
     <section id='projects'>
       <Projects/>
     </section>
-    {/* <section id='contactme'>
+    <section id='contactme'>
       <Contact/>
-    </section> */}
+    </section>
   </div>;
 };
 

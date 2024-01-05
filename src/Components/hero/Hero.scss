@@ -4,22 +4,28 @@
     height: calc(100vh - 100px);
     overflow: hidden;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(180deg, black,rgba(0, 0, 0, 0.267));
     z-index: 100;
+    padding: 0 20px;
     @include mobile{
-        padding-top: 50px;
-        // border: 2px solid rebeccapurple;
+        // padding-top: 50px;
+    }
+    @include tablet{
+
     }
     
     .wrapper{
         max-width: 1266px;
         height: 100%;
         margin: auto;
+        
         @include mobile{
             position: absolute;
             top: 55%;
             height: 50%;
-            // border: 2px solid rebeccapurple;
         }
         .textContainer{
             height: 100%;
@@ -28,26 +34,38 @@
             justify-content: center;
             gap: 40px;
             width: 50%;
-            // border: 2px solid rebeccapurple;
             @include mobile{
                 width: 90%;
+                height: 100%;
                 top: 0;
                 gap: 10px;
-                margin:-40px  auto;
+                margin:-60px  auto;
             }
             h2{
-                font-size: 30px;
+                font-size: 2.2vw;
                 color:rebeccapurple;
                 letter-spacing: 6px;
-                @include mobile{
-                    font-size: 20px;
+                @include largeTablet{
+                    font-size: 28px;
                 }
+                @include mobile{
+                    font-size: 2rem;
+                }
+                @include smallMobile {
+                    font-size: 20px;
+                  }
             }
             h1{
-                font-size: 88px;
+                font-size: 6vw;
                 @include mobile{
-                    font-size: 50px;
+                    font-size: 2.78rem;
                 }
+                @include smallMobile {
+                    font-size: 35px;
+                  }
+                // @include largeTablet{
+                //     font-size: 70px;
+                // }
                 
             }
             .buttons{
@@ -55,7 +73,6 @@
                 display: flex;
                 width: 100%;
                 // height: 100%;
-                // border: 2px solid rebeccapurple;
                 button{
                     padding: 20px;
                     border: 1px solid white;
@@ -66,6 +83,9 @@
                     cursor: pointer;
                     z-index: 10;
                     // position: absolute;
+                    @include smallMobile{
+                        padding: 13px;
+                    }
                 }
             }
         }
@@ -79,19 +99,30 @@
         top: 0;
         right: 0;
         z-index: 9;
-        // border: 2px solid rebeccapurple;
-        margin-right: 3rem;
-        img{
-            height: 100%;
-        }
+        margin-right: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         @include mobile{
+            width: 100%;
             height: 45%;
             // left: 50%;
             // right: 50%;
-            margin-right: 0;
-            right: 20%;
+            // right: 20%;
             // left: 50%;
         }
+        img{
+            height: 100%;
+            @include tablet{
+                width: 90%;
+                height: 90%;
+            }
+            @include mobile{
+                width: 50%;
+                height: 100%;
+            }
+        }
+        
     }
     .slidingTextContainer{
         position: absolute;

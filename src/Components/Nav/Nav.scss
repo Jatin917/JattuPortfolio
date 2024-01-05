@@ -11,12 +11,20 @@
         justify-content: space-between;
         max-width: 1266px;
         height: 100%;
+        padding: 0 25px;
+        // border: 2px solid rebeccapurple;
+        @include largeTablet{
+                padding: 0 50px;
+        }
         .nameDetails{
             // background-color: black;
             display: flex;
             gap: 20px;
             font-weight: 700;
             padding-left: 2rem;
+            @include largeTablet{
+
+            }
             @include mobile{
                 justify-content: center;
                 // border: 2px solid rebeccapurple;

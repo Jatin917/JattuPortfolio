@@ -45,7 +45,7 @@ const Nav = () => {
             <motion.div className="nameDetails" variants={variants} initial="initial" animate="animate">
                 <motion.img variants={variants} src={logo} alt="logo" />
                 <motion.span variants={variants} className='line'></motion.span>
-                <motion.span variants={variants} >JATIN CHANDEL</motion.span>
+                <motion.span variants={variants} >JATIN CHANDEL 😎</motion.span>
             </motion.div>
             <motion.div variants={logoVariants}  initial="initial" animate="animate" className="social">
                 <motion.a href=""><motion.img variants={logoVariants} src={facebook}/></motion.a>

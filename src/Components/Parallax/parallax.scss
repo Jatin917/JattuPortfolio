@@ -29,10 +29,8 @@
         position: absolute;
         z-index: 3;
         @include mobile{
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            }
+            display: none;
+        }
     }
     .planets{
         background-image: url("/planets.png");
