@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 
 const arr = [
     'Homepage',
-    'Portfolio',
+    'Projects',
     'Contact Me',
     'About Me'
 ]

@@ -1,0 +1,13 @@
+@import "../../app.scss";
+
+.mouse{
+    position: fixed;
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 50%;
+    z-index: 9999;
+    @include mobile{
+        display: none;
+      }
+}
