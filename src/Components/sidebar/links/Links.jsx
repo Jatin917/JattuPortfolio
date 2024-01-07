@@ -2,10 +2,10 @@ import React from 'react'
 import {motion} from 'framer-motion'
 
 const arr = [
-    'Homepage 🏠',
-    'Projects 🧑🏻‍💻',
-    'Contact Me ☎️',
-    'About Me 🙋‍♂️'
+    'Homepage 🏠💻',
+    'Projects 🔨📂',
+    'Contact Me 📬🤝',
+    'About Me 👤ℹ️'
 ]
 const variants = {
     open:{

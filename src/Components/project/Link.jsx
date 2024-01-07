@@ -42,7 +42,6 @@ const Link = ({heading,img,href}) => {
         <h3>
             <motion.span variants={{initial:{x:0}, whileHover:{x:-16} }} transition={{type:"spring",staggerChildren:0.075,delay:1}}>
                 {heading.split("").map((l,i)=>(
-                            // {console.log(l)}
                             <motion.span variants={{initial:{x:0}, whileHover:{x:16} }} transition={{type:'spring'}} key={i}>{l}</motion.span>
                 ))}
             </motion.span>
