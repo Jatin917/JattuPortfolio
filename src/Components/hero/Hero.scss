@@ -10,11 +10,14 @@
     background: linear-gradient(180deg, black,rgba(0, 0, 0, 0.267));
     z-index: 100;
     padding: 0 20px;
+    // width: 100vw;
     @include mobile{
         // padding-top: 50px;
     }
     @include tablet{
-
+        border: 2px solid red;
+        // left: 50%;
+        // right: 50%;
     }
     
     .wrapper{
@@ -96,10 +99,11 @@
     .imageContainer{
         height: 100%;
         position: absolute;
+        // border: 2px solid red;
         top: 0;
         right: 0;
         z-index: 9;
-        margin-right: 3vw;
+        margin-right: 10vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -114,7 +118,7 @@
         img{
             height: 100%;
             @include tablet{
-                width: 90%;
+                // width: 90%;
                 height: 90%;
             }
             @include mobile{
