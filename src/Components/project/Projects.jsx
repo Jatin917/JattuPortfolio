@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="project">
             <Link  img="/google.jpg" heading="Google-Search" href="https://github.com/Jatin917/JattuSearch.git"/>
             <Link img="/public/flimpire-logo-zip-file/svg/logo-color.svg" heading="Flimpire" href="https://jattusflimpire.netlify.app/"/>
-            <Link className="lastElem" img="/google.jpg" heading="Coming-Soon"  href="#"/>
+            <Link className="lastElem" img="/public/ecommerce.png" heading="eCommerce"  href="https://jattusecommerce.netlify.app/"/>
     </div>
   )
 }
