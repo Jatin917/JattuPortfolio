@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className="project">
             <Link  img="/google.jpg" heading="Google-Search" href="https://github.com/Jatin917/JattuSearch.git"/>
-            <Link img="/public/netflix.png" heading="Netflix-Clone" href="https://jattusnetflixclone.netlify.app/"/>
+            <Link img="/public/flimpire-logo-zip-file/svg/logo-color.svg" heading="Flimpire" href="https://jattusflimpire.netlify.app/"/>
             <Link className="lastElem" img="/google.jpg" heading="Coming-Soon"  href="#"/>
     </div>
   )
