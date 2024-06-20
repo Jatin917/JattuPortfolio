@@ -1,11 +1,10 @@
-import React from 'react'
 import {motion} from 'framer-motion'
 
 const arr = [
     'Homepage 🏠💻',
     'Projects 🔨📂',
     'Contact Me 📬🤝',
-    'About Me 👤ℹ️'
+    // 'About Me 👤ℹ️'
 ]
 const variants = {
     open:{
@@ -36,7 +35,7 @@ const Links = () => {
     <motion.div variants={variants} className='links'>
         {arr.map((item)=>{
             return(
-                <motion.a variants={itemVariants} href={`#${item.toLowerCase().replace(/ /g,'')}`} whileHover={{scale:1.1}} whileTap={{scale:.95}} key={item}>{item}</motion.a>
+                <motion.a variants={itemVariants} href={`#${item.split(" ")[0].toLowerCase()}`} whileHover={{scale:1.1}} whileTap={{scale:.95}} key={item}>{item}</motion.a>
             )
         })}
     </motion.div>

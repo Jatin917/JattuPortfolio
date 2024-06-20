@@ -1,8 +1,8 @@
 import React from 'react'
 import './Nav.scss'
 import {motion} from 'framer-motion'
-import facebook from '../../../public/facebook.png'
-import instagram from '../../../public/instagram.png'
+import gfg from '../../../public/gfg.svg'
+import Leetcode from '../../../public/Leetcode.png'
 import twitter from '../../../public/twitter.png'
 import linkedin from '../../../public/linkedin.png'
 import github from '../../../public/github.png'
@@ -48,11 +48,11 @@ const Nav = () => {
                 <motion.span variants={variants} >JATIN CHANDEL 😎</motion.span>
             </motion.div>
             <motion.div variants={logoVariants}  initial="initial" animate="animate" className="social">
-                <motion.a href=""><motion.img variants={logoVariants} src={facebook}/></motion.a>
-                <motion.a href=""><motion.img variants={logoVariants}  src={instagram}/></motion.a>
-                <motion.a href=""><motion.img variants={logoVariants}  src={twitter}/></motion.a>
-                <motion.a href=""><motion.img variants={logoVariants}  src={linkedin}/></motion.a>
-                <motion.a href=""><motion.img variants={logoVariants}  src={github}/></motion.a>
+                <motion.a href="https://leetcode.com/u/Jatin917/" target='_blank'><motion.img variants={logoVariants} src={Leetcode}/></motion.a>
+                <motion.a href="https://www.geeksforgeeks.org/user/jkchanoqtv/" target='_blank'><motion.img variants={logoVariants}  src={gfg}/></motion.a>
+                <motion.a href="https://www.linkedin.com/in/jatin-chandel-703a7b1ab?originalSubdomain=in" target='_blank'><motion.img variants={logoVariants}  src={linkedin}/></motion.a>
+                <motion.a href="https://x.com/JatinChandel13?s=09" target='_blank'><motion.img variants={logoVariants}  src={twitter}/></motion.a>
+                <motion.a href="https://github.com/Jatin917" target='_blank'><motion.img variants={logoVariants}  src={github}/></motion.a>
             </motion.div>
         </div>
     </div>

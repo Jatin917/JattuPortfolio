@@ -1,12 +1,12 @@
 @import "../../app.scss";
 
 .contact {
-  height: 100%;
+  height: 100vh;
   max-width: 1366px;
   margin: auto;
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
   padding: 0 40px;
   // border: 2px solid red;
 
@@ -23,10 +23,10 @@
     gap: 40px;
 
     @include mobile {
-      gap: 20px;
+      gap: 15px;
       text-align: center;
       align-items: center;
-      margin-top: 70px;
+      margin-top: 40px;
     }
 
     h1 {
@@ -46,9 +46,9 @@
   .formContainer {
     flex: 1;
     position: relative;
-    
+    // border:2px solid red;
     @include mobile {
-      padding: 50px;
+      padding: 15px 40px;
       width: 100%;
     }
 
@@ -58,8 +58,11 @@
       position: absolute;
       margin: auto;
       z-index: -1;
-      // border: 2px solid rebeccapurple;
+      display: flex;
+      align-items: center;
       width: 100%;
+      // border:2px solid red;
+
       height: 100%;
       @include mobile {
         left: 20px;
@@ -69,9 +72,14 @@
       svg{
         height: 450px;
         width: 450px;
+        // border:2px solid red;
+        margin: auto;
         @include mobile{
-          height: 100% !important;
-          width: 100% !important;
+          height: 85% !important;
+          width: 80% !important;
+        }
+        @include tablet{
+          width: 40vw;
         }
       }
 

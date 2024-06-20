@@ -55,9 +55,9 @@ const Hero = () => {
                 <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="" />
             </motion.div>
         </div>
-        {/* <motion.div variants={sliderVariants} initial="initial" animate="animate" className="slidingTextContainer">
+        <motion.div variants={sliderVariants} initial="initial" animate="animate" className="slidingTextContainer">
             Programmer WebDeveloper
-        </motion.div> */}
+        </motion.div>
         <motion.div variants={textVariants} initial={{x:500}} animate="animate" className="imageContainer">
             <img src="/hero.png" alt="" />
         </motion.div>
