@@ -25,11 +25,13 @@ const Contact = () => {
   const formRef = useRef();
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const isInView = useInView(ref, { margin: "-100px" });
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setLoading(true);
 
     emailjs
       .sendForm(
@@ -41,6 +43,7 @@ const Contact = () => {
       .then(
         (result) => {
           setSuccess(true)
+          setLoading(false);
         },
         (error) => {
             console.log(error)
@@ -115,6 +118,7 @@ const Contact = () => {
           <button>Submit</button>
           {error && "Error"}
           {success && "Success"}
+          {loading && "Loading..."}
         </motion.form>
       </div>
     </motion.div>
