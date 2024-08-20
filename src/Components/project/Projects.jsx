@@ -6,7 +6,7 @@ import Link from './Link'
 const Projects = () => {
   return (
     <div className="project">
-            <Link  img="/google.jpg" heading="Google-Search" href="https://github.com/Jatin917/JattuSearch.git"/>
+            <Link  img="/public/hostelManagement.png" heading="jattuHostel" href="https://jattuhostelmanagement.netlify.app/"/>
             <Link img="/flimpire.png" heading="Flimpire" href="https://jattusflimpire.netlify.app/"/>
             <Link className="lastElem" img="/ecommerce.png" heading="eCommerce"  href="https://jattusecommerce.netlify.app/"/>
     </div>
