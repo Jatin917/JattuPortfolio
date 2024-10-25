@@ -48,7 +48,7 @@ const Nav = () => {
                 <motion.span variants={variants} >JATIN CHANDEL 😎</motion.span>
             </motion.div>
             <motion.div variants={logoVariants}  initial="initial" animate="animate" className="social">
-                <motion.a href="https://leetcode.com/u/Jatin917/" target='_blank'><motion.img variants={logoVariants} src="/public/LeetCode.png" /></motion.a>
+                <motion.a href="https://leetcode.com/u/Jatin917/" target='_blank'><motion.img variants={logoVariants} src="/LeetCode.png" /></motion.a>
                 <motion.a href="https://www.geeksforgeeks.org/user/jkchanoqtv/" target='_blank'><motion.img variants={logoVariants}  src={gfg}/></motion.a>
                 <motion.a href="https://www.linkedin.com/in/jatin-chandel-703a7b1ab?originalSubdomain=in" target='_blank'><motion.img variants={logoVariants}  src={linkedin}/></motion.a>
                 <motion.a href="https://x.com/JatinChandel13?s=09" target='_blank'><motion.img variants={logoVariants}  src={twitter}/></motion.a>
