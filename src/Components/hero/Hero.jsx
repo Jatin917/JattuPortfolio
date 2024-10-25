@@ -52,14 +52,14 @@ const Hero = () => {
                     <motion.button variants={textVariants}>See the Latest Works</motion.button>
                     <motion.button variants={textVariants}>Contact Me</motion.button>
                 </motion.div>
-                <motion.img variants={textVariants} animate="scrollButton" src="/public/assets/scroll.png" alt="" />
+                <motion.img variants={textVariants} animate="scrollButton" src="/assets/scroll.png" alt="" />
             </motion.div>
         </div>
         <motion.div variants={sliderVariants} initial="initial" animate="animate" className="slidingTextContainer">
             Programmer WebDeveloper
         </motion.div>
         <motion.div variants={textVariants} initial={{x:500}} animate="animate" className="imageContainer">
-            <img src="/public/assets//hero.png" alt="" />
+            <img src="/assets/hero.png" alt="" />
         </motion.div>
     </div>
   )
