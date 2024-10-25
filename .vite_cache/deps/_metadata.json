@@ -1,50 +1,67 @@
 {
-  "hash": "5fc567b0",
-  "browserHash": "1c218e0b",
+  "hash": "2e972d02",
+  "configHash": "8acff78a",
+  "lockfileHash": "b76c0dcd",
+  "browserHash": "a579107b",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "af3b166a",
+      "fileHash": "5dd6227b",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../node_modules/react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "99fe0f23",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "678c4468",
+      "fileHash": "04ff08d6",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../node_modules/react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "cbe72196",
       "needsInterop": true
     },
     "@emailjs/browser": {
       "src": "../../node_modules/@emailjs/browser/es/index.js",
       "file": "@emailjs_browser.js",
-      "fileHash": "263a7a97",
+      "fileHash": "588441f0",
       "needsInterop": false
     },
     "framer-motion": {
       "src": "../../node_modules/framer-motion/dist/es/index.mjs",
       "file": "framer-motion.js",
-      "fileHash": "f5f454f8",
+      "fileHash": "8f42f4c1",
       "needsInterop": false
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "97406b57",
+      "fileHash": "8e42893d",
       "needsInterop": true
     },
     "react-icons/fi": {
       "src": "../../node_modules/react-icons/fi/index.esm.js",
       "file": "react-icons_fi.js",
-      "fileHash": "33c89237",
+      "fileHash": "d8b13324",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-2PA4WPI3": {
-      "file": "chunk-2PA4WPI3.js"
+    "chunk-BBDXWS37": {
+      "file": "chunk-BBDXWS37.js"
     },
-    "chunk-ROME4SDB": {
-      "file": "chunk-ROME4SDB.js"
+    "chunk-2PIBWAMS": {
+      "file": "chunk-2PIBWAMS.js"
+    },
+    "chunk-V4OQ3NZ2": {
+      "file": "chunk-V4OQ3NZ2.js"
     }
   }
 }
