@@ -9,6 +9,7 @@
   gap: 20px;
   padding: 0 40px;
   // border: 2px solid red;
+  overflow: hidden;
 
   @include mobile {
     width: 100%;
@@ -26,7 +27,7 @@
       gap: 15px;
       text-align: center;
       align-items: center;
-      margin-top: 40px;
+      // margin-top: 0px;
     }
 
     h1 {

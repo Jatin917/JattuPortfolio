@@ -6,6 +6,9 @@ import Parallax from './Components/Parallax/Parallax';
 import Projects from './Components/project/Projects';
 import Mouse from './Components/Mouse/Mouse';
 import { useEffect, useState } from 'react';
+// import { properties } from '../../react-expandable-card-v1/src/constants/data';
+import Card from './Components/Card/Card';
+import { properties } from './constants/data';
 
 const App = () => {
 
@@ -38,11 +41,17 @@ const App = () => {
       <Nav/>
       <Hero/>
     </section>
-    <section>
+    {/* <section>
       <Parallax/>
-    </section>
-    <section id='projects'>
-      <Projects/>
+    </section> */}
+    <section id="projects">
+    <div className="properties">
+        {properties.map((item) => (
+          <>
+          <Card data={item} key={item.id} />
+          </>
+        ))}
+      </div>
     </section>
     <section id='contact'>
       <Contact/>

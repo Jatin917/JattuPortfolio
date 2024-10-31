@@ -15,7 +15,7 @@ html{
 }
 body{
     background-color: #000;
-    color: lightgray;
+    color: lightgray !important;
 }
 a{
     text-decoration: none;
@@ -24,31 +24,95 @@ a{
 section{
     height: 100vh;
     scroll-snap-align: center;
+    overflow: hidden;
 }
-
+#projects {
+  height: auto !important;
+  min-height: 100vh !important;
+  scroll-snap-align: center;
+  overflow: hidden; /* Prevent overflow */
+  background-color: #000; /* Set a solid background color */
+  box-shadow: none; /* Remove any inner shadow effect */
+}
+section#shadow-host-companion{
+  height: 0vh !important;
+}
 
 @mixin mobile {
     @media (max-width: 738px) {
       @content;
+      #projects{
+        min-height: 100vh !important;
+      scroll-snap-align: center;
+  overflow: hidden;
+
+      }
     }
   }
 @mixin smallMobile {
     @media (max-width: 400px) {
       @content;
+      #projects{
+        min-height: 100vh !important;
+  scroll-snap-align: center;
+  overflow: hidden;
+
+      }
     }
   }
   @mixin tablet {
     @media (max-width: 1000px) {
       @content;
+      #projects{
+        min-height: 100vh !important;
+  scroll-snap-align: center;
+  overflow: hidden;
+
+      }
     }
   }
   @mixin largeTablet {
     @media (max-width: 1306px) {
       @content;
+      #projects{
+        min-height: 100vh !important;
+  scroll-snap-align: center;
+  overflow: hidden;
+
+      }
     }
   }
   @mixin desktop {
     @media (max-width: 1366px) {
       @content;
+      #projects{
+        min-height: 100vh !important;
+  scroll-snap-align: center;
+  overflow: hidden;
+
+      }
     }
   }
+  .App {
+    text-align: center;
+  font-family: "DM Sans",sans-serif;
+    padding: 20px;
+  }
+  
+  .properties {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #cacaca;
+    border-radius: 5px;
+  }
+  
