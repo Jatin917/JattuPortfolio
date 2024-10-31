@@ -1,13 +1,10 @@
-import hostelManagementLg from '/assets/hostelManagementLg.png'
-import bloogify from '/assets/blogify.png'
-import flimpire from '/assets/FlimpireLg.png'
-import flipkart from '/assets/flipkart.png'
+
 
 export const properties = [
   {
     id: 1,
     imageUrl:
-      '/assets/hostelManagementLg.png',
+      'assets/hostelManagementLg.png',
     link:"https://jattuhostelmanagement.netlify.app/",
     githubLink:"https://github.com/Jatin917/HostelManagementBackend",
     techStack:["MERN Stack", "JWT Token", "Bootstrap", "React Router", "Custom Hooks"],
@@ -21,7 +18,7 @@ export const properties = [
   },
   {
     id: 2,
-    imageUrl:'/assets/blogify.png',
+    imageUrl:'assets/blogify.png',
     link:"https://jattusblogify.netlify.app/",
     githubLink:"https://github.com/Jatin917/Blog",
     techStack:["ReactJS(TypeScript)", "Hono", "Prisma ORM", "Neon DB", "Cloudflare Workers", "Recoil", "Monorepo"],
@@ -36,7 +33,7 @@ export const properties = [
   {
     id: 3,
     imageUrl:
-      '/assets/FlimpireLg.png',
+      'assets/flimpireLg.png',
     link:"https://jattusflimpire.netlify.app/",
     githubLink:"https://github.com/Jatin917/flimpire",
     techStack:["ReactJS", "Redux Toolkit", "Firebase"],
@@ -51,7 +48,7 @@ export const properties = [
   {
     id: 4,
     imageUrl:
-      '/assets/flipkart.png',
+      'assets/flipkart.png',
     link:"https://jattusecommerce.netlify.app/",
     githubLink:"https://github.com/Jatin917/ecommerceBackend",
     techStack:["Mern Stack", "ReduxToolkit", "MUI(Material-UI)", "Paytm Payment Gateway"],
