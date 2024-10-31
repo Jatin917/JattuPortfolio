@@ -1,7 +1,7 @@
-import hostelManagementLg from '../../public/assets/hostelManagementLg.png'
-import bloogify from '../../public/assets/blogify.png'
-import flimpire from '../../public/assets/FlimpireLg.png'
-import flipkart from '../../public/assets/flipkart.png'
+import hostelManagementLg from '/assets/hostelManagementLg.png'
+import bloogify from '/assets/blogify.png'
+import flimpire from '/assets/FlimpireLg.png'
+import flipkart from '/assets/flipkart.png'
 
 export const properties = [
   {
