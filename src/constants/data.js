@@ -60,4 +60,19 @@ export const properties = [
     numWashrooms: 3,
     livingSpace: "4,450 sq.ft.",
   },
+  {
+    id: 5,
+    imageUrl:
+      'assets/calendar.png',
+    link:"https://dacoidcalendar.netlify.app/",
+    githubLink:"https://github.com/Jatin917/DacoidDigitalCalendar",
+    techStack:["React", "ShadcnUI", "Tailwind CSS"],
+    title: "Digital Calendar",
+    Status: "Completed",
+    description:
+      "This calendar app allows users to add, edit, and delete events, filter events by keywords, and automatically handle month transitions. Events are stored persistently using localStorage and can be exported as CSV or JSON. The app features real-time clock updates, live event refresh, and a responsive UI styled with Tailwind CSS.",
+    numBedroom: 4,
+    numWashrooms: 3,
+    livingSpace: "4,450 sq.ft.",
+  },
 ];
