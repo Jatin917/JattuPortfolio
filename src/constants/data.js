@@ -75,4 +75,19 @@ export const properties = [
     numWashrooms: 3,
     livingSpace: "4,450 sq.ft.",
   },
+    {
+    id: 6,
+    imageUrl:
+      'assets/hostelManagementLg.png',
+    link:"https://nullstackoverflow.netlify.app/",
+    githubLink:"https://github.com/Jatin917/nullclasstasks",
+    techStack:["MERN Stack", "JWT Token", "react redux", "React Router", "firebase", "multer", "nodemailer", "p-queue"],
+    title: "StackOverFlow Clone",
+    Status: "Completed",
+    description:
+      "This platform offers Google and phone authentication for seamless access. Users can engage in a public space by sharing pictures, videos, and comments, with posting limits based on their friend count. Multi-language support (Spanish, Hindi, Portuguese, Chinese, French, English) ensures global accessibility, with OTP verification for secure language switching. A dedicated Q&A section allows users to ask and answer questions with titles, descriptions, and tags, fostering community interaction and knowledge sharing.",
+    numBedroom: 4,
+    numWashrooms: 3,
+    livingSpace: "3,000 sq.ft.",
+  }
 ];
