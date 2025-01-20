@@ -48,7 +48,7 @@ const Nav = () => {
                 <motion.a href="https://www.linkedin.com/in/jatin-chandel-703a7b1ab?originalSubdomain=in" target='_blank'><motion.img variants={logoVariants}  src="/assets/linkedin.png"/></motion.a>
                 <motion.a href="https://x.com/JatinChandel13?s=09" target='_blank'><motion.img variants={logoVariants}  src="/assets/twitter.png"/></motion.a>
                 <motion.a href="https://github.com/Jatin917" target='_blank'><motion.img variants={logoVariants}  src="/assets/github.png"/></motion.a>
-                <motion.a href="https://drive.google.com/file/d/1qUt35WnM7L26pBJX_E0HCmDQryU69GgJ/view?usp=sharing" target='_blank'><motion.img variants={logoVariants} src='/assets/resume.png' /></motion.a>
+                <motion.a href="https://drive.google.com/file/d/1nvyNJ1wuvJutAWPJnvm_ew_T0KV_4kYU/view?usp=sharing" target='_blank'><motion.img variants={logoVariants} src='/assets/resume.png' /></motion.a>
             </motion.div>
         </div>
     </div>
