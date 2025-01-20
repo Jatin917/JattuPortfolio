@@ -78,7 +78,7 @@ export const properties = [
     {
     id: 6,
     imageUrl:
-      'assets/hostelManagementLg.png',
+      'assets/stackoverflow.png',
     link:"https://nullstackoverflow.netlify.app/",
     githubLink:"https://github.com/Jatin917/nullclasstasks",
     techStack:["MERN Stack", "JWT Token", "react redux", "React Router", "firebase", "multer", "nodemailer", "p-queue"],
@@ -86,6 +86,21 @@ export const properties = [
     Status: "Completed",
     description:
       "This platform offers Google and phone authentication for seamless access. Users can engage in a public space by sharing pictures, videos, and comments, with posting limits based on their friend count. Multi-language support (Spanish, Hindi, Portuguese, Chinese, French, English) ensures global accessibility, with OTP verification for secure language switching. A dedicated Q&A section allows users to ask and answer questions with titles, descriptions, and tags, fostering community interaction and knowledge sharing.",
+    numBedroom: 4,
+    numWashrooms: 3,
+    livingSpace: "3,000 sq.ft.",
+  },
+    {
+    id: 7,
+    imageUrl:
+      'assets/hospitalFood.png',
+    link:"https://hospitalfxxdmanagement.netlify.app/",
+    githubLink:"https://github.com/Jatin917/hopitalFoodManagement",
+    techStack:["ReactJs", "Typescript", "ShadCN UI", "Node.js", "Express.js", "Prisma ORM", "PostgreSQL"],
+    title: "Hospital Food Management",
+    Status: "Completed",
+    description:
+      "The Hospital Food Manager Dashboard streamlines meal services by tracking deliveries, managing patient details and diet charts, monitoring pantry performance, and providing real-time alerts for delays. The Inner Pantry Dashboard oversees meal preparation, delivery tasks, and updates. RESTful APIs enable secure authentication (JWT/OAuth), manage patient details and diet charts, assign pantry tasks, and mark deliveries as complete, ensuring efficient and coordinated operations.",
     numBedroom: 4,
     numWashrooms: 3,
     livingSpace: "3,000 sq.ft.",
