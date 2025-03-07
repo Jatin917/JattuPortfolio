@@ -5,7 +5,7 @@ export const properties = [
     id: 1,
     imageUrl:
       'assets/zappay.png',
-    link:"https://paytm-user-2fkphrz35-jatin917s-projects.vercel.app/",
+    link:"https://paytm-user-app-nu.vercel.app/",
     githubLink:"https://github.com/Jatin917/paytm",
     techStack:["Next.js (TypeScript)", "Prisma", "PostgreSQL", "Redis", "TurboRepo", "Docker"],
     title: "ZapPay",
