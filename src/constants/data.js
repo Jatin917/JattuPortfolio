@@ -11,7 +11,7 @@ export const properties = [
     title: "ZapPay",
     Status: "Completed",
     description:
-      "Developed a seamless and secure payment platform, ZapPay, using Next.js (TypeScript) with a modern UI, designed to facilitate efficient and reliable transactions. The system features a queue-based transaction processing mechanism powered by Redis, ensuring smooth and fault-tolerant payment handling. A dummy bank server with Redis-based retry logic is integrated to manage transaction failures and enhance reliability. The backend is built using Prisma ORM with PostgreSQL for secure and structured data storage. The project follows a monorepo architecture using TurboRepo, optimizing collaboration, scalability, and maintainability.    numBedroom: 4,
+      "Developed a seamless and secure payment platform, ZapPay, using Next.js (TypeScript) with a modern UI, designed to facilitate efficient and reliable transactions. The system features a queue-based transaction processing mechanism powered by Redis, ensuring smooth and fault-tolerant payment handling. A dummy bank server with Redis-based retry logic is integrated to manage transaction failures and enhance reliability. The backend is built using Prisma ORM with PostgreSQL for secure and structured data storage. The project follows a monorepo architecture using TurboRepo, optimizing collaboration, scalability, and maintainability.    numBedroom: 4",
   },
   {
     id: 2,
