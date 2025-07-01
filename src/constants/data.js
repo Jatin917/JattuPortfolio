@@ -1,99 +1,115 @@
-
-
 export const properties = [
   {
     id: 1,
-    imageUrl:
-      'assets/zappay.png',
-    link:"https://paytm-user-2fkphrz35-jatin917s-projects.vercel.app/",
-    githubLink:"https://github.com/Jatin917/paytm",
-    techStack:["Next.js (TypeScript)", "Prisma", "PostgreSQL", "Redis", "TurboRepo", "Docker"],
-    title: "ZapPay",
-    Status: "Completed",
-    description:
-      "Developed a seamless and secure payment platform, ZapPay, using Next.js (TypeScript) with a modern UI, designed to facilitate efficient and reliable transactions. The system features a queue-based transaction processing mechanism powered by Redis, ensuring smooth and fault-tolerant payment handling. A dummy bank server with Redis-based retry logic is integrated to manage transaction failures and enhance reliability. The backend is built using Prisma ORM with PostgreSQL for secure and structured data storage. The project follows a monorepo architecture using TurboRepo, optimizing collaboration, scalability, and maintainability.    numBedroom: 4",
+    imageUrl: 'assets/notesVerse.png',
+    link: 'https://manitstudyportal.netlify.app/',
+    githubLink: 'https://github.com/Anujcodecraft/notes-online',
+    techStack: [
+      'MongoDB',
+      'Express.js',
+      'React.js',
+      'Node.js',
+      'Firebase',
+      'Cloudinary',
+      'Supabase',
+      'Google Analytics'
+    ],
+    title: 'Notes Verse',
+    Status: 'Completed',
+    description: `ManitStudyPortal is a MERN-based web application designed specifically for our college students. It allows verified students to upload and share study materials including notes, previous year questions (PYQs), and assignments. Other students can browse, upvote, and access these resources securely using Google Authentication via Firebase.\n\n🚀 Features\n🔐 Google Login via Firebase Authentication\n📤 Upload notes, PYQs, and assignments (only permitted users)\n📥 Students can view and download resources\n👍 Upvote helpful content to push it to the top\n🧑‍🏫 Visit uploader profiles to see their contributions\n☁️ File storage using Cloudinary\n📊 Real-time analytics using Google Analytics\n📦 Built with the robust MERN stack + Supabase\n\n📈 Analytics Overview (Last 28 Days)\nActive Users: 376\nTotal Users: 500+\nEngagement Rate: 86.4%\nTotal Views: 14,000\nEvent Count: 20,000\nPage Views: 14K for AcademicHub - Notes\nUser Stickiness:\nDAU/WAU: 20.8% ⬆️ 308.3%\nWAU/MAU: 6.4% ⬇️ 76.0%`,
   },
   {
     id: 2,
-    imageUrl:
-      'assets/hostelManagementLg.png',
-    link:"https://jattuhostelmanagement.netlify.app/",
-    githubLink:"https://github.com/Jatin917/HostelManagementBackend",
-    techStack:["MERN Stack", "JWT Token", "Bootstrap", "React Router", "Custom Hooks"],
+    imageUrl: 'assets/10Xextension.png',
+    link: 'https://github.com/jatin917/TLE',
+    githubLink: 'https://github.com/jatin917/TLE',
+    techStack: [
+      'Chrome Extension',
+      'React.js',
+      'OmniDimension AI',
+      'Google Sheets',
+      'Gmail API',
+      'SMTP',
+      'Analytics'
+    ],
+    title: 'AI-Powered Email Outreach Assistant',
+    Status: 'In Development',
+    description: `Supercharge your Gmail with AI-driven outreach, automation, and personalization.\nBuilt for sales teams, marketers, and founders who want more replies, more meetings, and less manual work — all without leaving Gmail.\n\n✨ Features at a Glance\n✅ Campaign Creation & Personalization\nSend personalized mass emails directly from Gmail\nUse Google Sheets to mail merge with custom data\nAuto-detect first names to increase engagement\nPreview emails before sending\n📅 Scheduling & Automation\nSchedule emails for later delivery\nAuto follow-up until the recipient replies\nDrip campaigns with behavior-based logic\n📊 Tracking & Analytics\nTrack opens, clicks, replies, and bounces\nGet real-time reports on campaign performance\n📥 Inbox & Deliverability Tools\nSend emails as replies in existing threads\nUse Gmail's native infrastructure for best deliverability\nBuilt-in warm-up feature to increase reputation\nUse suppression lists to avoid certain recipients\n📁 Advanced Sending Capabilities\nBypass Gmail limits with multi-account sending\nSupport for aliases and SMTP integration\n🧠 Smart Features\nAuto-generate contact lists from past conversations\nAdd unsubscribe links and handle opt-outs\nSpam score checker before sending\nEmail verification to reduce bounce rate\n👨‍💼 Team & Enterprise Ready\nShare campaigns with your team\nLog activity with audit trails\nFull multi-user and multi-account support\n🤖 Powered by OmniDimension AI Agents\nTake automation to the next level:\n\n🧠 Smart Scheduling: Auto-schedule meetings based on lead intent and team availability\n💼 Dynamic Negotiation: Handle objections and upsell like a human — fully autonomous\n⚡️ This isn't just automation. It's AI-powered sales enablement inside Gmail.\n\n🛠 Installation (Developer Mode)\nClone or download this repository\nOpen chrome://extensions in Chrome\nTurn on Developer mode (top-right)\nClick Load unpacked\nSelect the root folder of the project\n📌 Coming Soon: AI Sales Agents\n💡 Sales Automation Tools\nLead Warmer – Cold-call prospects, detect interest, and schedule meetings\nQuote Builder – Reps describe deals, AI builds and sends proposals\nRenewal Sentinel – Re-engages users before expiry, handles upsells\nSmart Inbox Agent – Understands replies, drafts human-like follow-ups\nCRM Auto-Updater – Updates your CRM automatically with lead interactions`,
+  },
+  {
+    id: 3,
+    imageUrl: 'assets/riverside.png',
+    link: 'https://github.com/ShreyTanna29/riverside-clone/',
+    githubLink: 'https://github.com/ShreyTanna29/riverside-clone/',
+    techStack: [
+      'Next.js (App Router)',
+      'Tailwind CSS',
+      'Node.js',
+      'Express',
+      'Prisma ORM',
+      'PostgreSQL (Docker)',
+      'Redis',
+      'Docker & Docker Compose',
+      'LiveKit',
+      'WebRTC'
+    ],
+    title: 'Riverside.fm Clone',
+    Status: 'In Development',
+    description: `A full-stack clone of Riverside.fm built to showcase my developer skills in real-time media streaming, session management, and scalable service architecture using Docker Compose.\n\n🚧 Note: Deployment is in progress. The app will be deployed via Docker Compose, and the live link will be added here once it's ready.\n\n🧠 Project Purpose\nThis clone project is designed to demonstrate my ability to build a complex, real-world application with multiple moving parts. It reflects my skills in full-stack development, WebRTC, Docker, and modular architecture — mimicking platforms like Riverside.fm.\n\n✅ Features (Implemented So Far)\n🎥 Create a studio (host a session)\n🔗 Generate a link to invite others\n🔒 Join a studio using an invite link\n👋 Leave session gracefully\n🧠 Backend logic with Livekit for real-time media\n🎙️ Recording of sessions\n🔄 Persistent room support\n📤 Recorded video is sent to all users who joined the session\n\n🧰 Tech Stack\nFrontend: Next.js (App Router), Tailwind CSS\nBackend: Node.js (Express or custom setup), Prisma ORM\nInfra & Tools: PostgreSQL (via Docker), Redis (for session handling), Docker & Docker Compose, LiveKit setup (for real-time media)`,
+  },
+  {
+    id: 4,
+    imageUrl: 'assets/hostelManagementLg.png',
+    link: 'https://jattuhostelmanagement.netlify.app/',
+    githubLink: 'https://github.com/Jatin917/HostelManagementBackend',
+    techStack: ["MERN Stack", "JWT Token", "Bootstrap", "React Router", "Custom Hooks"],
     title: "Hostel Management",
     Status: "Completed",
     description:
       "Developed a comprehensive hostel management system with user authentication and admin controls, designed to manage student details with options for adding, editing, deleting, and updating information. The system includes robust daily attendance tracking, display capabilities, and CSV export functionality for easy data management. A user management feature is integrated to control roles and permissions, ensuring secure application access by restricting critical operations exclusively to admins. This system enhances efficiency, data security, and user management within hostel administration.",
   },
   {
-    id: 3,
-    imageUrl:'assets/blogify.png',
-    link:"https://jattusblogify.netlify.app/",
-    githubLink:"https://github.com/Jatin917/Blog",
-    techStack:["ReactJS(TypeScript)", "Hono", "Prisma ORM", "Neon DB", "Cloudflare Workers", "Recoil", "Monorepo"],
-    title: "Blogify",
-    Status: "Ongoing",
-    description:
-      "Developed a dynamic and responsive blogging platform utilizing React.js with TypeScript and Recoil for efficient state management. The backend is serverless, powered by Cloudflare Workers for scalable, low-latency responses, with Hono facilitating routing and Prisma ORM interfacing with Neon DB for smooth database operations. Key features include user authentication, blog publishing, and content reading, providing a streamlined user experience. Styled with Tailwind CSS, the platform boasts a modern, responsive interface. The codebase is organized in a monorepo structure, promoting collaboration and maintainability throughout development.",
-  },
-  {
-    id: 4,
-    imageUrl:
-      'assets/flimpireLg.png',
-    link:"https://jattusflimpire.netlify.app/",
-    githubLink:"https://github.com/Jatin917/flimpire",
-    techStack:["ReactJS", "Redux Toolkit", "Firebase"],
+    id: 5,
+    imageUrl: 'assets/flimpireLg.png',
+    link: 'https://jattusflimpire.netlify.app/',
+    githubLink: 'https://github.com/Jatin917/flimpire',
+    techStack: ["ReactJS", "Redux Toolkit", "Firebase"],
     title: "Flimpire",
     Status: "Completed",
     description:
       "Developed a responsive, user-focused frontend using React.js, leveraging Redux Toolkit for modular state management. The backend is supported by Firebase, providing user authentication and real-time database management. Key features include video playback with React Video Library, dynamic rendering of movie thumbnails, titles, and details, along with search and recommendation functionalities, offering users an engaging content discovery experience.",
   },
   {
-    id: 5,
-    imageUrl:
-      'assets/flipkart.png',
-    link:"https://jattusecommerce.netlify.app/",
-    githubLink:"https://github.com/Jatin917/ecommerceBackend",
-    techStack:["Mern Stack", "ReduxToolkit", "MUI(Material-UI)", "Paytm Payment Gateway"],
+    id: 6,
+    imageUrl: 'assets/flipkart.png',
+    link: 'https://jattusecommerce.netlify.app/',
+    githubLink: 'https://github.com/Jatin917/ecommerceBackend',
+    techStack: ["Mern Stack", "ReduxToolkit", "MUI(Material-UI)", "Paytm Payment Gateway"],
     title: "Ecommerce",
     Status: "Completed",
     description:
       "Developed and deployed a full-stack eCommerce platform with the MERN stack, featuring robust user authentication, comprehensive product catalog management, and a shopping cart with integrated Paytm payment gateway. Optimized application performance and ensured a seamless user experience by implementing Redux Toolkit for state management. The platform's responsive UI is crafted with React.js and styled using MUI (Material-UI), delivering a clean and user-friendly shopping experience.",
   },
   {
-    id: 6,
-    imageUrl:
-      'assets/calendar.png',
-    link:"https://dacoidcalendar.netlify.app/",
-    githubLink:"https://github.com/Jatin917/DacoidDigitalCalendar",
-    techStack:["React", "ShadcnUI", "Tailwind CSS"],
+    id: 7,
+    imageUrl: 'assets/calendar.png',
+    link: 'https://dacoidcalendar.netlify.app/',
+    githubLink: 'https://github.com/Jatin917/DacoidDigitalCalendar',
+    techStack: ["React", "ShadcnUI", "Tailwind CSS"],
     title: "Digital Calendar",
     Status: "Completed",
     description:
       "This calendar app allows users to add, edit, and delete events, filter events by keywords, and automatically handle month transitions. Events are stored persistently using localStorage and can be exported as CSV or JSON. The app features real-time clock updates, live event refresh, and a responsive UI styled with Tailwind CSS.",
   },
-    {
-    id: 7,
-    imageUrl:
-      'assets/stackoverflow.png',
-    link:"https://nullstackoverflow.netlify.app/",
-    githubLink:"https://github.com/Jatin917/nullclasstasks",
-    techStack:["MERN Stack", "JWT Token", "react redux", "React Router", "firebase", "multer", "nodemailer", "p-queue"],
+  {
+    id: 8,
+    imageUrl: 'assets/stackoverflow.png',
+    link: 'https://nullstackoverflow.netlify.app/',
+    githubLink: 'https://github.com/Jatin917/nullclasstasks',
+    techStack: ["MERN Stack", "JWT Token", "react redux", "React Router", "firebase", "multer", "nodemailer", "p-queue"],
     title: "StackOverFlow Clone",
     Status: "Completed",
     description:
       "This platform offers Google and phone authentication for seamless access. Users can engage in a public space by sharing pictures, videos, and comments, with posting limits based on their friend count. Multi-language support (Spanish, Hindi, Portuguese, Chinese, French, English) ensures global accessibility, with OTP verification for secure language switching. A dedicated Q&A section allows users to ask and answer questions with titles, descriptions, and tags, fostering community interaction and knowledge sharing.",
   },
-    {
-    id: 8,
-    imageUrl:
-      'assets/hospitalFood.png',
-    link:"https://hospitalfxxdmanagement.netlify.app/",
-    githubLink:"https://github.com/Jatin917/hopitalFoodManagement",
-    techStack:["ReactJs", "Typescript", "ShadCN UI", "Node.js", "Express.js", "Prisma ORM", "PostgreSQL"],
-    title: "Hospital Food Management",
-    Status: "Completed",
-    description:
-      "The Hospital Food Manager Dashboard streamlines meal services by tracking deliveries, managing patient details and diet charts, monitoring pantry performance, and providing real-time alerts for delays. The Inner Pantry Dashboard oversees meal preparation, delivery tasks, and updates. RESTful APIs enable secure authentication (JWT/OAuth), manage patient details and diet charts, assign pantry tasks, and mark deliveries as complete, ensuring efficient and coordinated operations.",
-  }
 ];
