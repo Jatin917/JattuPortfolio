@@ -1,14 +1,22 @@
-import React, { useEffect, useState } from 'react'
-import {animate, motion} from 'framer-motion'
+import React from 'react'
+import { properties } from '../../constants/data'
 import './Project.scss'
 import Link from './Link'
 
 const Projects = () => {
+  // Show the latest 3 projects (or adjust as needed)
+  const latestProjects = properties.slice(0, 3)
   return (
     <div className="project">
-            <Link  img="/assets/hostelManagement.png" heading="jattuHostel" href="https://jattuhostelmanagement.netlify.app/"/>
-            <Link img="/assets/flimpire.png" heading="Flimpire" href="https://jattusflimpire.netlify.app/"/>
-            <Link className="lastElem" img="/assets/ecommerce.png" heading="eCommerce"  href="https://jattusecommerce.netlify.app/"/>
+      {latestProjects.map((item, idx) => (
+        <Link
+          key={item.id}
+          img={`/${item.imageUrl}`}
+          heading={item.title}
+          href={item.link}
+          className={idx === latestProjects.length - 1 ? 'lastElem' : ''}
+        />
+      ))}
     </div>
   )
 }
