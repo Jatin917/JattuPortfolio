@@ -25,7 +25,7 @@ export const properties = [
     githubLink: 'https://github.com/jatin917/TLE',
     techStack: [
       'Chrome Extension',
-      'React.js',
+      'Vanilla JS',
       'OmniDimension AI',
       'Google Sheets',
       'Gmail API',
