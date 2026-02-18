@@ -1,0 +1,230 @@
+@import '../../app.scss';
+
+.skills {
+  height: 100vh;
+  max-width: 1366px;
+  margin: auto;
+  padding: 80px 40px 40px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(180deg, #000000 0%, #0a1628 50%, #000000 100%);
+
+  @include mobile {
+    padding: 60px 20px 20px;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .skillsWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    z-index: 10;
+    position: relative;
+
+    @include mobile {
+      gap: 30px;
+    }
+  }
+
+  .skillsTitle {
+    font-size: 80px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #06b6d4 0%, #0891b2 50%, #0e7490 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    @include largeTablet {
+      font-size: 60px;
+    }
+
+    @include mobile {
+      font-size: 36px;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      gap: 10px;
+    }
+
+    @include smallMobile {
+      font-size: 28px;
+    }
+
+    .ampersand {
+      color: #22d3ee;
+      font-weight: 300;
+      opacity: 0.8;
+    }
+  }
+
+  .chainWaveContainer {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #06b6d4, #0891b2);
+      border-radius: 2px;
+    }
+  }
+
+  .chainWaveGrid {
+    display: grid;
+    gap: 12px 14px;
+    padding: 10px 0;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+
+    @include mobile {
+      gap: 10px 12px;
+      max-width: 100%;
+    }
+
+    @include smallMobile {
+      gap: 8px 10px;
+    }
+  }
+
+  .chainLink {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 18px;
+    background: rgba(6, 182, 212, 0.08);
+    border: 1px solid rgba(6, 182, 212, 0.35);
+    border-radius: 10px;
+    color: #a5f3fc;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    flex-shrink: 0;
+
+    @include mobile {
+      padding: 10px 14px;
+      font-size: 13px;
+    }
+
+    @include smallMobile {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+
+    .chainLinkText {
+      position: relative;
+      z-index: 2;
+    }
+
+    .skillGlow {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(6, 182, 212, 0.4) 0%, transparent 70%);
+      transform: translate(-50%, -50%);
+      transition: width 0.3s ease, height 0.3s ease;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(6, 182, 212, 0.2),
+        transparent
+      );
+      transition: left 0.6s ease;
+    }
+
+    &:hover {
+      background: rgba(6, 182, 212, 0.15);
+      border-color: #06b6d4;
+      color: #ffffff;
+
+      .skillGlow {
+        width: 200px;
+        height: 200px;
+      }
+
+      &::before {
+        left: 100%;
+      }
+    }
+  }
+
+  .backgroundText {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    font-size: 20vh;
+    font-weight: 700;
+    color: rgba(6, 182, 212, 0.05);
+    white-space: nowrap;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+
+    @include mobile {
+      font-size: 15vh;
+      bottom: -30px;
+    }
+
+    @include smallMobile {
+      font-size: 12vh;
+    }
+  }
+
+  .floatingParticle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: radial-gradient(circle, #06b6d4 0%, transparent 70%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgba(6, 182, 212, 0.5);
+
+    @include mobile {
+      display: none;
+    }
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}

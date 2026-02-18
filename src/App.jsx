@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 // import { properties } from '../../react-expandable-card-v1/src/constants/data';
 import Card from './Components/Card/Card';
 import { properties } from './constants/data';
+import Skills from './Components/skills/Skills';
 
 const App = () => {
 
@@ -44,6 +45,9 @@ const App = () => {
     {/* <section>
       <Parallax/>
     </section> */}
+    <section id="skills">
+      <Skills/>
+    </section>
     <section id="projects">
     <div className="properties">
         {properties.map((item) => (

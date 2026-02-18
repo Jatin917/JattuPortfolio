@@ -2,6 +2,7 @@ import {motion} from 'framer-motion'
 
 const arr = [
     'Homepage 🏠💻',
+    'Skills 🛠️⚡',
     'Projects 🔨📂',
     'Contact Me 📬🤝',
     // 'About Me 👤ℹ️'
